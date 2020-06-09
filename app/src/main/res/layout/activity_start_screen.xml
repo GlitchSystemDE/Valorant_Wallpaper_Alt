@@ -3,14 +3,21 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/testrot"
     tools:context=".StartScreen">
 
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textSize="40sp"
-        android:layout_centerHorizontal="true"
-        android:text="@string/valorant_wallpaper" />
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="205dp"
+        android:layout_height="415dp"
+        android:contentDescription="@string/wallpaper1"
+        android:src="@drawable/testblau"/>
 
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="205dp"
+        android:layout_height="415dp"
+        android:src="@drawable/testgruen"
+        android:layout_alignParentEnd="true"
+        android:contentDescription="@string/wallpaper2" />
 </RelativeLayout>
