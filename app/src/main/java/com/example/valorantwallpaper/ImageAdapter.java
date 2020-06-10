@@ -12,7 +12,8 @@ public class ImageAdapter extends BaseAdapter {
     private Context mContext;
 
     public int[] bilderArray = {
-            R.drawable.ladebildschirm,R.drawable.testblau,R.drawable.testgruen,R.drawable.testrot,R.drawable.ladebildschirmval
+            R.drawable.hintergrund1,R.drawable.hintergrund2,R.drawable.hintergrund3,R.drawable.hintergrund4,R.drawable.hintergrund5,
+            R.drawable.hintergrund6,R.drawable.hintergrund7
     };
 
     public ImageAdapter(Context mContext) {
