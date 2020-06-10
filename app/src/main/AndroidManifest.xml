@@ -3,7 +3,7 @@
     package="com.example.valorantwallpaper">
 
     <uses-permission android:name="android.permission.SET_WALLPAPER" />
-    <uses-permission android:name="android.permission.SET_WALLPAPER_HINTS" />
+    <uses-permission android:name="android.permission.INTERNET"/>
 
     <application
         android:allowBackup="false"
@@ -12,6 +12,9 @@
         android:roundIcon="@mipmap/ic_valorant_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-3940256099942544~3347511713"/>
         <activity android:name=".VollbildActivity" />
         <activity android:name=".StartScreen" />
         <activity android:name=".MainActivity">
