@@ -12,7 +12,7 @@ public class ImageAdapter extends BaseAdapter {
     private Context mContext;
 
     public int[] bilderArray = {
-            R.drawable.ladebildschirm,R.drawable.testblau,R.drawable.testgruen,R.drawable.testrot
+            R.drawable.ladebildschirm,R.drawable.testblau,R.drawable.testgruen,R.drawable.testrot,R.drawable.ladebildschirmval
     };
 
     public ImageAdapter(Context mContext) {
@@ -39,7 +39,7 @@ public class ImageAdapter extends BaseAdapter {
         ImageView imageView = new ImageView(mContext);
         imageView.setImageResource(bilderArray[position]);
         imageView.setScaleType(ImageView.ScaleType.CENTER_CROP);
-        imageView.setLayoutParams(new GridView.LayoutParams(250, 500));
+        imageView.setLayoutParams(new GridView.LayoutParams(550, 1000));
 
         return imageView;
     }

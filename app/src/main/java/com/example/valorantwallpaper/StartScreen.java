@@ -25,9 +25,9 @@ public class StartScreen extends AppCompatActivity {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
 
-                Intent intent2 = new Intent(getApplicationContext(),VollbildActivity.class);
-                intent2.putExtra("id",position);
-                startActivity(intent2);
+                Intent intent = new Intent(getApplicationContext(),VollbildActivity.class);
+                intent.putExtra("id",position);
+                startActivity(intent);
 
             }
         });
