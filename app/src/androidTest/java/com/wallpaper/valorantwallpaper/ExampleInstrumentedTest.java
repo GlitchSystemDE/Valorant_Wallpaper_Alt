@@ -1,4 +1,4 @@
-package com.example.valorantwallpaper;
+package com.wallpaper.valorantwallpaper;
 
 import android.content.Context;
 
