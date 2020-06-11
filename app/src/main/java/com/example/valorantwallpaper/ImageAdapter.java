@@ -13,7 +13,8 @@ public class ImageAdapter extends BaseAdapter {
 
     public int[] bilderArray = {
             R.drawable.hintergrund1,R.drawable.hintergrund2,R.drawable.hintergrund3,R.drawable.hintergrund4,R.drawable.hintergrund5,
-            R.drawable.hintergrund6,R.drawable.hintergrund7
+            R.drawable.hintergrund6,R.drawable.hintergrund7,R.drawable.hintergrund8,R.drawable.hintergrund9,R.drawable.hintergrund10,
+            R.drawable.hintergrund11,R.drawable.hintergrund12
     };
 
     public ImageAdapter(Context mContext) {

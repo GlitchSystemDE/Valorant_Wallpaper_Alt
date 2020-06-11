@@ -66,7 +66,7 @@ public class VollbildActivity extends AppCompatActivity {
 
         try {
             manager.setBitmap(bitmap);
-            Toast.makeText(this, "Wallpaper wurde gesetzt", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, "Background was set", Toast.LENGTH_SHORT).show();
         } catch (IOException e){
             Toast.makeText(this,"Error!", Toast.LENGTH_SHORT).show();
         }
